@@ -1,4 +1,4 @@
-# Luke's build of st - the simple (suckless) terminal
+# Another st (fork/custom patched) - the simple (suckless) terminal
 
 The [suckless terminal (st)](https://st.suckless.org/) with some additional features:
 
@@ -63,7 +63,7 @@ The `alpha` value (for transparency) goes from `0` (transparent) to `255`
 
 To be clear about the color settings:
 
-- This build will use gruvbox colors by default and as a fallback.
+- This build will use ~~gruvbox~~ custom colors by default and as a fallback.
 - If there are Xresources colors defined, those will take priority.
 - But if `wal` has run in your session, its colors will take priority.
 
@@ -71,7 +71,6 @@ Note that when you run `wal`, it will negate the transparency of existing
 windows, but new windows will continue with the previously defined
 transparency.
 
-## Contact
+## forked from
 
-- Luke Smith <luke@lukesmith.xyz>
-- [https://lukesmith.xyz](https://lukesmith.xyz)
+- Luke Smith - [https://lukesmith.xyz](https://lukesmith.xyz)
